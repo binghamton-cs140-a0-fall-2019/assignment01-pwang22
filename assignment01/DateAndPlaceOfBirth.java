@@ -107,7 +107,7 @@ public class DateAndPlaceOfBirth {
 	 */
 	public boolean hasSameBirthDayAs(DateAndPlaceOfBirth other) {
 		//TODO complete this method
-		if(dateOfBirth.getMonth() == other.getMonth() && dateOfBirth.getDayOfMonth() == other.getDayOfMonth) {
+		if((dateOfBirth.getMonth() == other.dateOfBirth.getMonth()) && (dateOfBirth.getDayOfMonth() == other.dateOfBirth.getDayOfMonth())) {
 			return true;
 		}
 		return false;

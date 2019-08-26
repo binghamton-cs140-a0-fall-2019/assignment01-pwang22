@@ -81,9 +81,6 @@ public class Person {
 	 
 	 public String toString() {
 		 // TODO
-		 System.out.println(firstNames + " " + lastNames);
-		 System.out.println(ssn);
-		 System.out.println(placeDob);
-		 System.out.println(address);
+		 return firstNames + " " + lastNames + "\n" + ssn + "\n" + placeDob + "\n" + address + "\n";
 	 }
 }
