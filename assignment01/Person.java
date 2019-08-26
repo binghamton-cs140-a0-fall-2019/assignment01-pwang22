@@ -80,6 +80,10 @@ public class Person {
 	 }
 	 
 	 public String toString() {
-		 // TODO but idk wtf to print
+		 // TODO
+		 System.out.println(firstNames + " " + lastNames);
+		 System.out.println(ssn);
+		 System.out.println(placeDob);
+		 System.out.println(address);
 	 }
 }

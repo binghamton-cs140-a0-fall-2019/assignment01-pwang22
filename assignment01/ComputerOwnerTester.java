@@ -47,5 +47,3 @@ public class ComputerOwnerTester {
 		}
 	}
 }
-
-String aBrand, String cpuDesc, int ram, int disk, boolean ssd, double purchPrice
