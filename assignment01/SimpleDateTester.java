@@ -6,9 +6,9 @@ import java.io.PrintWriter;
 
 public class SimpleDateTester {
 	public static void main(String[] args) {
-		SimpleDate sd = new SimpleDate();
-		SimpleDate sd_earlier = new SimpleDate();
-		SimpleDate sd_later = new SimpleDate();
+		SimpleDate sd = SimpleDate.of(2009, 3, 24);
+		SimpleDate sd_earlier = SimpleDate.of(2006, 8, 2);
+		SimpleDate sd_later = SimpleDate.of(2009, 3, 25);
 		System.out.println(sd.before(sd_earlier)); //should print false
 		System.out.println(sd.before(sd_later)); //should print true
 		

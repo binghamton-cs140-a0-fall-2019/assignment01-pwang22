@@ -6,7 +6,7 @@ public class SimpleDate {
 	private int day;
 	
 	public static SimpleDate of(int yr, int m, int d) {
-		var returnValue = new SimpleDate();
+		SimpleDate returnValue = new SimpleDate();
 		returnValue.year = yr;
 		returnValue.month = m;
 		returnValue.day = d;
@@ -14,18 +14,14 @@ public class SimpleDate {
 	}
 	
 	public boolean before(SimpleDate other) {
-		if(this.year < other.year) {
+		if(year < other.year) {
 			return true;
-		} else {
-			if(this.year == other.year) {
-				if(this.month < other.month) {
+		} else if(year == other.year) {
+			if(month < other.month) {
+				return true;
+			} else if(month == other.month) {
+				if(day < other.day) {
 					return true;
-				} else {
-					if(this.month == other.month) {
-						if(this.day < other.day) {
-							return true;
-						}
-					}
 				}
 			}
 		}

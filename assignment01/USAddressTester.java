@@ -9,6 +9,7 @@ public class USAddressTester {
 		StreetUSAddress a1 = new StreetUSAddress("1835 Magic Dr", "#48", "Pamplico", "SC", "29583");
 		StreetUSAddress a2 = new StreetUSAddress("8817 Sand Pine Dr", "", "Navarre", "FL", "32566");
 		System.out.println(a1);
+		System.out.println();
 		System.out.println(a2);
 		
 		try(var output =new PrintWriter(new FileOutputStream(

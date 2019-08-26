@@ -1,0 +1,53 @@
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR Computer.java:
+Lenovo, Intel Core i7, 16GB Memory, 1.3TB Hard Drive, Price: $900.00 
+Asus, Intel Core i5, 32GB Memory, 2.0TB Hard Drive, Price: $500.00 
+HP, Intel Core i3, 8GB Memory, 500GB Solid State Drive, Price: $300.00 
+Toshiba, Intel Core i7, 16GB Memory, 256GB Solid State Drive, Price: $600.00 
+
+TESTS FOR Person.java:
+Sebastien Loeb
+557624832
+Date and place of birth: 1974-02-26, Haguenau,France
+7001 396th Dr SE
+Snoqualmie, WA 98065
+
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 2010-11-06, San Francisco,California,United States
+Date and place of birth: 2010-11-06, New York,New York,United States
+Date and place of birth: 1998-11-06, Dalton,New Hampshire,United States
+Date and place of birth: 1968-08-05, Lanark,Scotland
+Date and place of birth: 1974-02-26, Haguenau,France
+false
+false
+true
+true
+
+false
+true
+false
+true
+
+true
+false
+false
+true
+
+false
+true
+false
+false
+
+TESTS FOR SimpleDate.java:
+false
+false
+
+TESTS FOR StreetUSAddress.java:
+1835 Magic Dr
+#48
+Pamplico, SC 29583
+8817 Sand Pine Dr
+Navarre, FL 32566
